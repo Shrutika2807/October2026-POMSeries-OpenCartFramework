@@ -24,7 +24,9 @@ public class DriverFactory {
 	Properties prop;
 	OptionsManager optionsManager;
 	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
-	public static final  Logger log=LogManager.getLogger(DriverFactory.class);
+	Logger log=LogManager.getLogger(DriverFactory.class);
+
+
 
 	public WebDriver initDriver(Properties prop)
 	{
